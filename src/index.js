@@ -14,7 +14,6 @@ ReactDOM.render(
       );
 
 // Render the main component into the dom
-debugger;
 ReactDOM.render((
     <Provider store={store}>
       <App />
