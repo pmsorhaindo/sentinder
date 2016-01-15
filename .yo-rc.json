@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "sentinder",
+    "style": "scss",
+    "postcss": false
+  }
+}
