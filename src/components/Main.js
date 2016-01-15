@@ -7,11 +7,11 @@ import CardCarousel from './CardCarouselComponent'
 class AppComponent extends React.Component {
   render() {
     const {actions, cards} = this.props;
-    console.dir('App Component render >>>>>', this.props)
+    console.log('App Component render >>>>>', this.props)
 
     return (
       <div className="index">
-        <CardCarousel className="index" actions={actions} state={cards}/>
+        <CardCarousel actions={actions} state={cards}/>
       </div>
     );
   }

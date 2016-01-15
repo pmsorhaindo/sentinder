@@ -8,7 +8,7 @@ class CardCarouselComponent extends React.Component {
 
   componentDidUpdate() {
     const {state} = this.props;
-    console.log('CardCarousel >>>>', state);
+    console.log('CardCarousel >>>>>', state);
   }
 
   render() {
