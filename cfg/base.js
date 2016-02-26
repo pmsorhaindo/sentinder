@@ -10,7 +10,7 @@ let publicPath = '/assets/';
 // @example:
 // let npmBase = path.join(__dirname, '../node_modules');
 // let additionalPaths = [ path.join(npmBase, 'react-bootstrap') ];
-let additionalPaths = [];
+let additionalPaths = [path.join(__dirname. '/../lib')];
 
 module.exports = {
   additionalPaths: additionalPaths,
