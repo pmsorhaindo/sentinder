@@ -16,8 +16,7 @@ class App extends Component {
 
   render() {
     const {actions, cards} = this.props;
-    console.log('App >>>>>>>>>', this.props);
-    return <Main actions={actions} cards={cards}/>;
+    return <Main actions={actions} cards={cards} povOf='Kanye'/>;
   }
 }
 /* Populated by react-webpack-redux:reducer
