@@ -16,6 +16,9 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
+# personal temp files
+.temp
+
 # node-waf configuration
 .lock-wscript
 
@@ -29,3 +32,6 @@ node_modules
 
 # Bower
 bower_components/
+
+# OSX
+.DS_Store
